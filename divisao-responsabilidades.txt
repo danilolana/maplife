@@ -1,0 +1,6 @@
+ Model/Entity com anotações JPA: Danilo Lana
+ DTO com validações Bean Validation: Thiago 
+ Mapper (Entity ↔ DTO):Rayany
+ Repository (JpaRepository):Guilherme
+ Controller com os 6 endpoint s da tabela acima: Danilo Lana e Rayany
+ Testado via Swagger, Postman ou Insomnia: Guilherme e Thiago
