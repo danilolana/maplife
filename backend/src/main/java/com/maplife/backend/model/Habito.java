@@ -18,10 +18,10 @@ public class Habito {
     private String description;
 
     @Column(nullable = false)
-    private int sequenceofdays;
+    private int sequenceOfDays;
 
     @Column(nullable = false)
-    private int daytarget;
+    private int dayTarget;
 
     public Habito() {
     }
@@ -33,7 +33,7 @@ public class Habito {
         this.daytarget = daytarget;
     }
 
-    public Long  getID(){
+    public Long  getId(){
         return id;
     }
 
@@ -74,11 +74,11 @@ public class Habito {
 	}
 
 
-    @Override
-    public String toString() {
-        return "Product{id=" + id + ",name='" + name + "', desscription'" + description + 
-        "', sequenceofdays" + sequenceofdays + ", daytarget" + daytarget + ")";
-    }
+   @Override
+public String toString() {
+    return "Habito{id=" + id + ", name='" + name + "', description='" + description +
+        "', sequenceOfDays=" + sequenceofdays + ", dayTarget=" + daytarget + "}";
+}
 
 
 
