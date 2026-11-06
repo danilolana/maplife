@@ -5,6 +5,11 @@ API REST para **mapear hábitos**: cadastrar, remover e registrar a última vez 
 > [!NOTE]
 > Projeto **exclusivamente de estudo** (Java e Spring Boot). Não é destinado a produção. Não há front-end, apenas a API.
 
+## Regra do projeto
+
+> [!WARNING]
+> Todo o código é escrito à mão pelo autor. **Nenhum código gerado por IA.** A IA só ensina e revisa.
+
 ## Objetivos de aprendizado
 
 - Java 21 e Spring Boot
