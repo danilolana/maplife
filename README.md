@@ -49,9 +49,13 @@ A "última vez que fez" **não é um campo**: é calculada a partir do registro 
 ```
 Controller  →  Service  →  Repository  →  MySQL
    (DTOs)      (regras)     (JPA)
+        ↘      Mapper      ↙
+     DTO ⇄ Entidade (Model)
 ```
 
-- DTOs de entrada e saída (records) separados das entidades JPA.
+- DTOs de entrada e saída (records) separados das entidades JPA (model).
+- **Mapper** dedicado converte DTO ⇄ Entidade, para o Controller não expor a entidade e o Service não conhecer detalhes de formato da API.
+- O **Controller** chama o Mapper: converte DTO → Entidade ao receber e Entidade → DTO ao responder. Service e Repository só trabalham com entidades.
 - Tratamento de erros centralizado com `@RestControllerAdvice`.
 
 ## SOLID no Maplife
