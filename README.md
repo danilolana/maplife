@@ -1,5 +1,7 @@
 # Maplife
 
+**Status:** em desenvolvimento
+
 API REST para **mapear hábitos**: cadastrar, remover e registrar a última vez que cada hábito foi feito.
 
 > [!NOTE]
